@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="600">
+  <img src="assets/dbms-icon-vector.jpg" width="300">
 </p>
 
 # database-engine-implementation
