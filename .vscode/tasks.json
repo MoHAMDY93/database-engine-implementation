@@ -1,0 +1,26 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Database Engine",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I",
+                "${workspaceFolder}/cpp-version/include",
+                "${workspaceFolder}/cpp-version/src/Storage/Page/field.cpp",
+                "-o",
+                "${workspaceFolder}/cpp-version/field.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

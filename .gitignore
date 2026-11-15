@@ -1,0 +1,23 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+
+# Build directories
+build/
+cmake-build-*/
+
+# Debug symbols
+*.pdb
+*.ilk
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# Temporary files
+*.tmp
+*.log
